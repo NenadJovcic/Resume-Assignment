@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(151, 216, 125);
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+span {
+  font-size: 30px;
+}
+
+section {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+aside {
+  width: 30%;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  background-color: rgb(209, 209, 198);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+article {
+  width: 80%;
+  display: grid;
+  grid-template-rows: 190px 0.1fr 1fr 0.5fr;
+}
+
+.line-height {
+  line-height: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.luigi {
+  height: 100%;
+  width: 70%;
+  border-radius: 9999px;
+}
+ul {
+  list-style-type: "- ";
+}
+
+.text-sz-12 {
+  font-size: 12px;
+}
+
+.name {
+  display: grid;
+  grid-template-rows: 140px 26%;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgb(62, 60, 65);
+  color: rgb(218, 214, 214);
+}
+
+.name h2 {
+  font-size: 42px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.name h3 {
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.font-sz-14 {
+  font-size: 14px;
+}
+.padding-x {
+  padding-right: 80px;
+  padding-left: 30px;
+}
+
+.subheading {
+  background-color: rgb(62, 60, 65);
+  color: rgb(218, 214, 214);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+footer {
+  padding-left: 19.7%;
+  padding-right: 20%;
+  margin-top: 4%;
+}
+
+.footer-line {
+  height: 3px;
+  background: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
